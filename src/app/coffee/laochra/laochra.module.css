@@ -1,0 +1,10 @@
+.word{
+    font-weight: bold;
+    font-size: 66px;
+    margin-left: 10%;
+}
+
+.img{
+    align-items: center;
+    margin-left: 30%;
+}

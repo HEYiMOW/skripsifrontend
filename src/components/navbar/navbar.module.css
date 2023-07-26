@@ -1,0 +1,18 @@
+.container{
+    
+ height: 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;   
+}
+
+.logo{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.link{
+    padding: 15px;
+    border: none;
+}
+

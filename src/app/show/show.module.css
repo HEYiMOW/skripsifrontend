@@ -1,0 +1,32 @@
+
+.title{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.table {
+    font-family: sans-serif;
+    color: #fff;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #272727;
+    text-align: center;
+    margin: auto;
+}
+
+.table tr th{
+    background: #068BC5;
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+}
+ 
+
+ 
+.table tr:nth-child(even) {
+    background-color: #4f4f4f;
+}
+
+
+
