@@ -33,7 +33,7 @@ const Coffee = () => {
         </div>
     </article>
     <Link href='./coffee/baswara'><article>
-    <Image src={baswara} alt=''className={styles.img}/>
+    <Image src={laochra} alt=''className={styles.img}/>
         <div class="content">
             <hr /> 
             <h2> kedai Baswara </h2>
