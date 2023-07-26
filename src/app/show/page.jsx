@@ -35,7 +35,7 @@ function PostIndex() {
 
     return (
         <div> 
-            <h1 className={styles.title}>Table Data Coffeeshop</h1>
+            <h1 className={styles.title}>Table Data Coffeeshop terbaru</h1>
                            
                             <table striped bordered hover className={styles.table}>
                                 <thead>
