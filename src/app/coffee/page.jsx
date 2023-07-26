@@ -19,7 +19,7 @@ const Coffee = () => {
         </div>
     </article>
     <article>
-    <Image src={tlmy} alt=''className={styles.img}/>
+    <Image src={laochra} alt=''className={styles.img}/>
         <div class="content">
             <hr />
             <h2> Angkringan Telomoyo </h2>
@@ -32,28 +32,6 @@ const Coffee = () => {
             <h2> Nogpi Huis </h2>
         </div>
     </article>
-    <Link href='./coffee/baswara'><article>
-    <Image src={laochra} alt=''className={styles.img}/>
-        <div class="content">
-            <hr /> 
-            <h2> kedai Baswara </h2>
-        </div>
-    </article></Link>
-    <Link href='./coffee/laochra'><article>
-    <Image src={laochra} alt=''className={styles.img}/>
-        <div class="content">
-            <hr />
-            <h2> Laochra Coffee </h2>
-        </div>
-    </article></Link>
-    <article>
-    <Image src={nogpi} alt=''className={styles.img}/>
-        <div class="content">
-            <hr />
-            <h2> Nogpi Huis </h2>
-        </div>
-    </article>
-    
 </main>
     </div>
   )
