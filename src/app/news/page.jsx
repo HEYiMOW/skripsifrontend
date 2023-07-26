@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 
 async function getData() {
-  const res = await fetch('http://localhost:3001/news',{
+  const res = await fetch('https://my-json-server.typicode.com/HEYiMOW/newsAPI/news',{
     cache: "no-store"
   })
 
