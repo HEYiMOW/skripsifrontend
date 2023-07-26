@@ -32,13 +32,13 @@ const Coffee = () => {
             <h2> Nogpi Huis </h2>
         </div>
     </article>
-    <article>
+    <Link href='./coffee/baswara'><article>
     <Image src={baswara} alt=''className={styles.img}/>
         <div class="content">
             <hr /> 
             <h2> kedai Baswara </h2>
         </div>
-    </article>
+    </article></Link>
     <Link href='./coffee/laochra'><article>
     <Image src={laochra} alt=''className={styles.img}/>
         <div class="content">
