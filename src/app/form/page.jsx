@@ -25,9 +25,15 @@ const Header = () => {
         img
       });
 
+      setCoffeshop_name("")
+      setDesc("")
+      setAddress("")
+
       setMessage(response.data.message);
-      // Jika pendaftaran berhasil, arahkan ke halaman login
-      if (response.data.message === "Pendaftaran berhasil") {
+      
+      if (response.data.message === 
+        alert("sukses")
+        ) {
 
       }
     } catch (error) {
