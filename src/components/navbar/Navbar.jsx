@@ -25,11 +25,6 @@ const links = [
         title: "Form",
         url: "/form",
     },
-    {
-        id: 5,
-        title: "Database",
-        url: "/show",
-    },
 ];
 
 const Navbar = () => {
