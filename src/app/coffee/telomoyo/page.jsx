@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from "./telomoyo.module.css"
 import Image from 'next/image'
-import coffee from "public/angkringan.jpg"
 import tlmy1 from "public/tlmy1.jpg"
 import tlmy2 from "public/tlmy2.jpg"
 
@@ -10,7 +9,7 @@ const Telomoyo = () => {
     <div>
 <div className={styles.imgcontainer}>
         <Image 
-        src={coffee}
+        src={tlmy1}
         alt=""
         className={styles.img}
         />
