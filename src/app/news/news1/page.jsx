@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./news1.module.css"
-import coffee from "public/angkringan.jpg"
+import coffee from "public/tlmy1.jpg"
 import Image from 'next/image'
 
 const News = async () => {
