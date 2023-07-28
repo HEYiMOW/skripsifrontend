@@ -1,0 +1,35 @@
+.container{
+    align-items: center;
+    gap: 50px;
+ }
+ 
+ 
+ 
+ .imgcontainer{
+     flex: 1;
+     height: 300px;
+     position: relative;
+     margin-bottom: 30%;
+     
+ }
+ 
+ .img{
+     object-fit: cover;
+     width: 1000px;
+     height: 200px;
+
+ }
+ 
+ .content{
+     margin-top: 50px;
+     font-size: 20px;
+     font-weight: 300;
+     text-align: justify;
+ }
+ .text1{
+    font-size: 36px;
+    margin-top: 10%;
+}
+.text{
+    font-size: 36px;
+}

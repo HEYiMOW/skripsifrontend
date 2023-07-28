@@ -1,0 +1,60 @@
+.img{
+    object-fit: cover;
+    width: 1000px;
+    height: 200px;
+
+}
+
+.tlmy1{
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+    margin-top: 10%;
+}
+.tlmy2{
+    object-fit: cover;
+    width: auto;
+    height: 300px;
+    margin-top: 10%;
+}
+
+.content{
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: justify;
+}
+.text1{
+   font-size: 24px;
+   margin-top: 10%;
+}
+
+.text{
+   font-size: 24px;
+}
+
+.kiri{
+    text-align: right;
+   
+    margin-top: 15%;
+}
+
+.space{
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.gmap_canvas{
+    position:relative;
+    text-align:right;
+    width:800px;
+    height:400px;
+}
+
+.gmap_iframe{
+    overflow:hidden;
+    background:none!important;
+    width:160%;
+    height:400px;
+}
+

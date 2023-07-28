@@ -9,6 +9,10 @@ import axios from 'axios';
 //import styles
 import styles from "./show.module.css"
 
+import Image from 'next/image';
+
+import coffee from "public/coffeeshopdb.png"
+
 function PostIndex() {
 
     //define state
@@ -35,8 +39,16 @@ function PostIndex() {
 
     return (
         <div> 
+                <div className={styles.img}>
+        <Image 
+        src={coffee}
+        alt=""
+        className={styles.image}
+        />
+
+      </div>
             <h1 className={styles.title}>Table Data Coffeeshop terbaru</h1>
-                           
+        
                             <table striped bordered hover className={styles.table}>
                                 <thead>
                                     <tr>

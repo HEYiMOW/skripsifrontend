@@ -5,6 +5,8 @@ import { useRouter } from "next/navigation";
 import styles from "./admin.module.css";
 import axios from "axios";
 import Cookies from "js-cookie";
+import logo from "public/logo.png"
+import Image from "next/image";
 
 const FormLogin = () => {
   const router = useRouter();
@@ -85,6 +87,7 @@ const FormLogin = () => {
   }, [isLoggedIn]);
 
   return (
+    
     <div className={styles.formlogin}>
       <div className={styles.masuk}>
         <b className={styles.masuk1}>Masuk</b>
@@ -97,7 +100,14 @@ const FormLogin = () => {
       ) : (
         <form className={styles.inner} onSubmit={handleSubmit}>
           <div className={styles.input}>
-            <div className={styles.emailnoTelepon}>Email/No Telepon</div>
+          <div className={styles.img}>
+        <Image 
+        src={logo}
+        alt=""
+        className={styles.image}
+        />
+
+      </div>
 
             <input
               name="username"
@@ -105,7 +115,7 @@ const FormLogin = () => {
               onChange={handleChange}
               className={styles.inputChild}
               
-              placeholder="Contoh: johndoe@gmail.com"
+              placeholder="Username"
               required
             />
           </div>
@@ -120,23 +130,20 @@ const FormLogin = () => {
               onChange={handleChange}
               className={styles.forminput}
               type="password"
-              placeholder="Masukkan password"
+              placeholder="Password"
               required
             />
           </div>
           <div className={styles.buttonWrapper}>
             <button className={styles.button} type="submit"
-            onClick={() => router.push("/show")}>
+            onClick={() => router.push("/admindb")}>
               <div className={styles.terbitkan}>Masuk</div>
             </button>
           </div>
           {errorMessage && (
             <p className={styles.errorMessage}>{errorMessage}</p>
           )}
-          <div className={styles.register}>
-            <div className={styles.belumPunyaAkun}>Belum punya akun?</div>
-            
-          </div>
+        
           {isLoggedIn && (
             <button
               onClick={() => router.push("/show")}
