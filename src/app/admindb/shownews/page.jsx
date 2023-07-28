@@ -7,7 +7,7 @@ import coffee from "public/coffeeshopdb.png"
 
 
 async function getData() {
-  const res = await fetch('https://my-json-server.typicode.com/HEYiMOW/NewsFillAPI/news',{
+  const res = await fetch('https://my-json-server.typicode.com/HEYiMOW/APInews/posts',{
     cache: "no-store"
   })
 
