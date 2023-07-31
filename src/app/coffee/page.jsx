@@ -38,7 +38,7 @@ const Coffee = () => {
             <h2 className={styles.h2}> Nogpi Huis </h2>
         </div>
     </article></Link>
-    <Link href='./coffee/baswara'><article>
+    <Link href='./coffee/brother'><article>
     <Image src={brother} alt=''className={styles.img}/>
         <div class="content">
             <hr /> 
@@ -52,7 +52,7 @@ const Coffee = () => {
             <h2 className={styles.h2}> Laochra Coffee </h2>
         </div>
     </article></Link>
-    <Link href='./coffee/laochra'>
+    <Link href='./coffee/eschol'>
     <article>
     <Image src={eschol} alt=''className={styles.img}/>
         <div class="content">
