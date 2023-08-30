@@ -1,5 +1,5 @@
 import React from 'react'
-import closed from 'public/coffee.gif'
+import closed from 'public/coffeegif.gif'
 import Image from 'next/image'
 import styles from './brother.module.css'
 
